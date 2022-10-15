@@ -14,7 +14,7 @@ library(Matrix)
 library(abind)
 
 #########################################################################################################
-##################################   Dynamic network code (HMM)   #######################################
+##################################   Dynamic network code for paper (HMM)   #######################################
 #########################################################################################################
 ## Defining a wrapper function for HMM undirected density case to run for different number of clusters 
 wrapper_HMM_dyn_undir_Dens<-function(sim.net,nclust,thres=10^(-6),theta_init,sim_indicator,sim_indicator_HMM=1,sim_indicator_TERGM=0,theta_true=NA,pi_true=NA,K_true=NA,cluster_ids_true=NA){
